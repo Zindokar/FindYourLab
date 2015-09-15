@@ -22,7 +22,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="FindYourLab - Developed by Overflowschool">
     <meta name="author" content="Overflowschool.com">
-	<script src="../vlab/advertisement.js"></script>
+	<script src="js/advertisement.js"></script>
     <link rel="shortcut icon" href="img/favicon.png">
     <title>FindYourLab App</title>
     <!-- Bootstrap core CSS -->
@@ -167,13 +167,14 @@
     <!--footer start-->
     <footer class="footer">
 		<script>
+			// AdBlock Checker
 			if (window.bloqueo == false)
 			{
-				document.write("<center><b>¡Compra juegos baratos!</b><br /><a href='http://www.kinguin.net/?r=2464&bannerid=5' target='_blank'><img src='http://www.kinguin.net/affiliateplus/banner.php?id=5&account_id=2464&store_id=1' alt='Kinguin - Buy Games Cheaper - Banner 728' title='Kinguin - Buy Games Cheaper - Banner 728' width='728' height='90' /></a></center>");
+				document.write("<center><b>Not using AdBlock</a></center>");
 			}
 			else
 			{
-				document.write("<div style='margin: 0 auto; width: 600px; padding: 10px; border: 1px solid black; background: #cccccc; color: black; text-align: center;'><b>El uso de AdBlock no ayuda a Overflowschool.com</b></div>");
+				document.write("<center><b>Using AdBlock</a></center>");");
 			}
 		</script>
 	</footer>
