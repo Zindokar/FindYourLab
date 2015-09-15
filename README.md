@@ -12,3 +12,6 @@ Base de datos: clases/BD/* dentro de cada archivo buscar 'DATABASE' e introducir
 Archivos SQL: data/sql/create_db_20150317.sql
 Ejemplos de inserción: data/sql/insert_labs.sql para las aulas a registrar y data/sql/insert_asignaciones_asignaturas.sql para las asignaturas y horarios
 Esquema entidad-relación: data/esquemas/bd_20150317.xml usando el programa DB Designer Fork
+
+## Explicación del front-end
+Diseño sacado de internet, me hubiera gustado poner el enlace, pero es un proyecto de hace más de un año y no recuerdo dónde lo saqué.
