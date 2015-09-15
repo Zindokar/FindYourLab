@@ -21,7 +21,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="FindYourLab - Developed by Overflowschool">
-    <meta name="author" content="Overflowschool.com">
+    <meta name="author" content="@rokimoki">
 	<script src="js/advertisement.js"></script>
     <link rel="shortcut icon" href="img/favicon.png">
     <title>FindYourLab App</title>
@@ -60,10 +60,10 @@
           <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                   <li>
-                      <a href="index.php" target="_blank">Inicio</a>
+                      <a href="index.php" target="_blank">Inicio</a> <!-- not needed, but its nice -->
                   </li>
                   <li>
-                      <a href="http://overflowschool.com" target="_blank">Nosotros</a>
+                      <a href="#aboutPage" target="_blank">Nosotros</a>
                   </li>
               </ul>
           </div>
@@ -76,7 +76,7 @@
         <div class="row">
           <div class="col-lg-4 col-sm-4">
             <h1>
-              Free labs from EII-ULPGC
+              Free labs/classes from <CENTER>
             </h1>
           </div>
         </div>
